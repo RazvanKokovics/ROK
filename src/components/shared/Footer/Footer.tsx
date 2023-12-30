@@ -7,7 +7,7 @@ function Footer() {
   return (
     <StyledFooter>
       <Copyright size={12} fontWeight={100} />
-      <span>ROK TRANSYLVANIA DEVELOPMENT SRL</span>
+      <span>ROK SRL</span>
     </StyledFooter>
   );
 }
