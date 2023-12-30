@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #0179bc;
+  --primary-color-light: #0179bc33;
+  --secondary-color: #005e7c;
+  --background-color-1: #19191b;
+  --background-color-2: #1c1c1e;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #bdbdc0;
+}
+
+[theme="light"] {
+  --background-color-1: #ebebeb;
+  --primary-text-color: #19191b;
+  --secondary-text-color: #9b9a9a;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+* > * {
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 20px;
+}
+
+body {
+  background-color: var(--background-color-1);
+  color: var(--primary-text-color);
+}
