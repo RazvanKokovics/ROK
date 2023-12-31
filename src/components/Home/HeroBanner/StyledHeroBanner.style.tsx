@@ -11,6 +11,10 @@ const StyledHeroBanner = styled.div`
       justify-content: center;
       padding-top: 140px;
 
+      @media only screen and (max-width: 600px) {
+        padding-top: 80px;
+      }
+
       .heading {
         color: var(--primary-text-color);
         text-align: center;
